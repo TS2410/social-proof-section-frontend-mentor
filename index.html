@@ -25,13 +25,10 @@
         }
         .cards{
           flex-wrap: wrap;
-          width: 50%;
+          width: 80%;
         }
-        .reviews{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
+        .heading{
+          padding: 20px;
         }
       }
       .attribution {
@@ -50,13 +47,14 @@
         background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
         background-position: top left, bottom right;
         background-repeat: no-repeat;
+        font-family: url(./design/Inter/static/Inter_18pt-Medium.ttfs);
       }
       .main{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 1200px;
+        width: 80%;
       }
       .container{
         display: flex;
@@ -67,7 +65,6 @@
       .heading{
         width: 44%;
         margin: 20px;
-        padding: 50px 60px 50px 0;
         display: flex;
         flex-direction: column;
         align-items: end;
@@ -75,13 +72,13 @@
       .reviews{
         width: 44%;
         margin: 20px;
-        padding: 20px 0 20px 50px;
+        padding: 40px;
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: center;
       }
       .cards{
-        min-width: 50%;
+        min-width: 65%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -95,7 +92,7 @@
         margin: 20px;
         padding: 20px;
         max-height: 250px;
-        max-width: 400px;
+        max-width: 380px;
       }
       .review-1, .review-2, .review-3{
         background-color: hsl(300, 24%, 96%);
